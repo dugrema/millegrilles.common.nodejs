@@ -1,0 +1,19 @@
+{
+  "name": "@dugrema/millegrilles.common",
+  "version": "1.26.0",
+  "description": "Package communs pour MilleGrilles (MQ, PKI, ...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dugrema/millegrilles.common.nodejs.git"
+  },
+  "author": "Mathieu Dugre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dugrema/millegrilles.common.nodejs/issues"
+  },
+  "homepage": "https://github.com/dugrema/millegrilles.common.nodejs#readme"
+}
