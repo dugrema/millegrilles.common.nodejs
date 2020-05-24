@@ -1,4 +1,4 @@
-const amqpdao = require('./lib/amqpdao')
-const pki = require('./lib/pki')
+const MilleGrillesPKI = require('./lib/pki')
+const MilleGrillesAmqpDAO = require('./lib/amqpdao')
 
-exports.module = {pki, amqpdao}
+module.exports = {MilleGrillesPKI, MilleGrillesAmqpDAO}
