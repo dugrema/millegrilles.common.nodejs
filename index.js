@@ -1,3 +1,4 @@
-exports.printMsg = function() {
-  console.log("MilleGrilles common pour NodeJS")
-}
+const amqpdao = require('./lib/amqpdao')
+const pki = require('./lib/pki')
+
+exports.module = {pki, amqpdao}
