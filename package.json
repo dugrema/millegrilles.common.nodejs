@@ -1,6 +1,6 @@
 {
   "name": "@dugrema/millegrilles.common",
-  "version": "1.26.0",
+  "version": "1.26.1",
   "description": "Package communs pour MilleGrilles (MQ, PKI, ...)",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/dugrema/millegrilles.common.nodejs/issues"
   },
-  "homepage": "https://github.com/dugrema/millegrilles.common.nodejs#readme"
+  "homepage": "https://github.com/dugrema/millegrilles.common.nodejs#readme",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "json-stable-stringify": "^1.0.1",
+    "node-forge": "^0.9.1",
+    "uuid": "^8.1.0"
+  }
 }
