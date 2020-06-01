@@ -80,7 +80,9 @@ export class WebSocketManager {
 
     webSocket.on("confirmationModeProtege", confirmation => {
       console.debug("Mode protege active : %s", confirmation.actif)
-      this.callbackModeProtege(confirmation.actif)
+      if(this.callbackModeProtege) {
+        this.callbackModeProtege(confirmation.actif)
+      }
     })
   }
 
@@ -306,7 +308,7 @@ export class WebSocketManager {
     if(!this.timeoutModeProtege) {
       console.debug("WebsocketManagerCoupdoeil : Demande activation mode protege")
       this.socket.emit("activerModeProtege")
-      this.timeoutModeProtege = setTimeout(() => {this.clearTimeoutModeProtege()}, 5000)
+      this.timeoutModeProtege = setTimeout(() => {this.clearTimeoutModeProtege()}, 20000)
 
       return new Promise((resolve, reject) => {
         this.callbackModeProtege = (resultat) => {
