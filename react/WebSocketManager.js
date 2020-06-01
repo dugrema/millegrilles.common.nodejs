@@ -1,14 +1,46 @@
 import { solveLoginChallenge } from '@webauthn/client'
+import openSocket from 'socket.io-client'
 
 export class WebSocketManager {
 
-  constructor() {
+  constructor(opts) {
+    if(!opts) opts = {}
+    this.opts = opts
+
     this.socket = null
     this.routingKeyCallbacks = {}
 
     this.callbackModeProtege = null
     this.timeoutModeProtege = null
     this.disconnectHandler = null
+  }
+
+  async connecter() {
+    this.path = this.opts.path || '/socket.io'
+    console.debug("Connecter socket.io")
+    const socket = this.openSocketHelper()
+    await this.setupWebSocket(socket)
+  }
+
+  openSocketHelper() {
+    let socket
+    if(this.opts.reconnection) {
+      socket = openSocket('/', {
+        path: this.path,
+        reconnection: true,
+        reconnectionAttempts: 30,
+        reconnectionDelay: 500,
+        reconnectionDelayMax: 30000,
+        randomizationFactor: 0.5
+      })
+    } else {
+      socket = openSocket('/', {
+        path: this.path,
+        reconnection: false,
+      })
+    }
+
+    return socket;
   }
 
   setupWebSocket(webSocket) {
