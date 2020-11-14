@@ -20,16 +20,16 @@
     "@webauthn/client": "^0.1.3",
     "@webauthn/server": "^0.1.3",
     "amqplib": "^0.6.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.0",
     "base-58": "0.0.1",
     "debug": "^4.2.0",
     "json-stable-stringify": "^1.0.1",
-    "moment-timezone": "^0.5.31",
+    "moment-timezone": "^0.5.32",
     "morgan": "^1.10.0",
     "node-forge": "^0.10.0",
-    "socket.io": "^2.3.0",
+    "socket.io": "^3.0.1",
     "spdy": "^4.0.2",
     "tmp": "^0.2.1",
-    "uuid": "^8.1.0"
+    "uuid": "^8.3.1"
   }
 }
