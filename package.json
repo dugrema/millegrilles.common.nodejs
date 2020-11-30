@@ -1,6 +1,6 @@
 {
   "name": "@dugrema/millegrilles.common",
-  "version": "1.35.0",
+  "version": "1.36.0",
   "description": "Package communs pour MilleGrilles (MQ, PKI, ...)",
   "main": "index.js",
   "scripts": {
