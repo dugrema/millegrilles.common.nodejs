@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dugrema/millegrilles.common.nodejs#readme",
   "dependencies": {
+    "fido2-lib": "git+ssh://git.maceroc.com/git/fido2-lib",
     "@webauthn/client": "^0.1.3",
     "@webauthn/server": "^0.1.3",
     "amqplib": "^0.6.0",
