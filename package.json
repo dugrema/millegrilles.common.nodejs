@@ -1,6 +1,6 @@
 {
   "name": "@dugrema/millegrilles.common",
-  "version": "1.40.0",
+  "version": "1.40.1",
   "description": "Package communs pour MilleGrilles (MQ, PKI, ...)",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "debug": "^4.2.0",
     "express-session": "^1.17.1",
     "express-socket.io-session": "^1.3.5",
-    "fido2-lib": "git+ssh://git.maceroc.com/git/fido2-lib",
+    "fido2-lib": "git+https://github.com/dugrema/fido2-lib",
     "json-stable-stringify": "^1.0.1",
     "memorystore": "^1.6.5",
     "moment-timezone": "^0.5.32",
