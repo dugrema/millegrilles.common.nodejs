@@ -71,3 +71,22 @@
   font-size: 0.75rem;
   font-family: "Tahoma", sans-serif;
 }
+
+/* Couleurs */
+.securite-protege {
+  color: #155724;
+  /* background-color: #d4edda;
+  border-color: #c3e6cb; */
+}
+
+.securite-prive {
+  color: #1b1e21;
+  /* background-color: #d6d8d9;
+  border-color: #c6c8ca; */
+}
+
+.securite-public {
+  color: #721c24;
+  /* background-color: #f8d7da;
+  border-color: #f5c6cb; */
+}
