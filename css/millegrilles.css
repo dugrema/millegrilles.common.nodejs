@@ -90,3 +90,7 @@
   /* background-color: #f8d7da;
   border-color: #f5c6cb; */
 }
+
+.invisible {
+  Filter: Alpha(Opacity=0)
+}
