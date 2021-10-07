@@ -19,7 +19,7 @@
   "dependencies": {
     "amqplib": "^0.8.0",
     "authenticator": "^1.1.5",
-    "axios": "^0.21.4",
+    "axios": "^0.22.0",
     "base-58": "0.0.1",
     "comlink": "^4.3.1",
     "connect-redis": "^6.0.0",
@@ -43,6 +43,6 @@
     "zlib": "^1.0.5"
   },
   "devDependencies": {
-    "jest": "^27.0.0"
+    "jest": "^27.0.3"
   }
 }
