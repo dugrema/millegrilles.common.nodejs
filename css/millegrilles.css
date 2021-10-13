@@ -11,6 +11,11 @@
   padding-bottom: 2rem;
 }
 
+.header-menu {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 @media screen and (min-width: 768px) {
   .footer .footer-content {
     padding-top: 4em;
@@ -29,6 +34,9 @@
     position: absolute;
   }
 
+  .header-menu .menu-right {
+    text-align: right;
+  }
 }
 
 @media screen and (max-width: 767px) {
