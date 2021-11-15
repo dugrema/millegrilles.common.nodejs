@@ -28,6 +28,7 @@
     "express-socket.io-session": "^1.3.5",
     "fido2-lib": "git+https://github.com/dugrema/fido2-lib",
     "json-stable-stringify": "^1.0.1",
+    "libsodium": "^0.7.9",
     "memorystore": "^1.6.6",
     "moment-timezone": "^0.5.33",
     "morgan": "^1.10.0",
