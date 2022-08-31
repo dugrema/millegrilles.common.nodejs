@@ -31,7 +31,7 @@
     "json-stable-stringify": "^1.0.1",
     "libsodium": "^0.7.9",
     "memorystore": "^1.6.6",
-    "moment-timezone": "^0.5.33",
+    "moment-timezone": "^0.5.35",
     "morgan": "^1.10.0",
     "multibase": "^4.0.4",
     "multihashes": "^4.0.3",
